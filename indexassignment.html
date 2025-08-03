@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Learn web development fundamentals including HTML5, accessibility, and SEO best practices. Comprehensive guide for beginners and professionals.">
+    <meta name="keywords" content="web development, HTML5, accessibility, SEO, semantic markup, web standards">
+    <meta name="author" content="Web Development">
+
+    <meta property="og:title" content="Web Development Fundamentals - HTML5, Accessibility & SEO">
+    <meta property="og:description" content="Master the essentials of modern web development with proper HTML5 structure, accessibility features, and SEO optimization.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://example.com">
+    
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Web Development Fundamentals">
+    <meta name="twitter:description" content="Learn HTML5, accessibility, and SEO best practices for modern web development.">
+    
+    <title>Web Development Fundamentals - HTML5, Accessibility & SEO Best Practices</title>
+    
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+    
+    <link rel="canonical" href="https://example.com">
+    
+    <meta name="language" content="English">
+</head>
+<body>
+   
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+    
+    <header role="banner">
+        <h1>Modern Web Development</h1>
+        <p>Master the fundamentals of the modern web development</p>
+    </header>
+    
+    <nav role="navigation" aria-label="Main navigation">
+        <h2>Navigation Menu</h2>
+        <ul>
+            <li><a href="#html5-section" aria-describedby="html5-desc">HTML5 Basics</a></li>
+            <li><a href="#accessibility-section" aria-describedby="a11y-desc">Accessibility</a></li>
+            <li><a href="#seo-section" aria-describedby="seo-desc">SEO Fundamentals</a></li>
+            <li><a href="#resources-section" aria-describedby="resources-desc">Additional Resources</a></li>
+            <li><a href="#contact-section" aria-describedby="contact-desc">Contact Us</a></li>
+        </ul>
+        
+        <div hidden>
+            <p id="html5-desc">Learn about HTML5 semantic elements and modern markup.</p>
+            <p id="a11y-desc">Discover web accessibility principles and implementation.</p>
+            <p id="seo-desc">Understand search engine optimization basics.</p>
+            <p id="resources-desc">Find helpful tools and additional learning materials.</p>
+            <p id="contact-desc">Get in touch with our development team.</p>
+        </div>
+    </nav>
+    
+    <main id="main-content" role="main">
+        <section aria-labelledby="intro-heading">
+            <h2 id="intro-heading">Welcome to Modern Web Development</h2>
+            <p>This comprehensive guide covers the essential building blocks of accessible, SEO-friendly web development. Learn how to create websites that work for everyone while ranking well in search engines.</p>
+            
+            <blockquote cite="https://www.w3.org/WAI/">
+                <p>"The power of the Web is in its universality. Access by everyone regardless of disability is an essential aspect."</p>
+                <footer>— <cite>Tim Berners-Lee, W3C Director and inventor of the World Wide Web</cite></footer>
+            </blockquote>
+        </section>
+        
+
+        <section id="html5-section" aria-labelledby="html5-heading">
+            <h2 id="html5-heading">HTML5 Semantic Elements</h2>
+            <p>HTML5 introduces semantic elements that provide meaning to your content structure, making it more accessible and SEO-friendly.</p>
+            
+            <article aria-labelledby="semantic-elements">
+                <h3 id="semantic-elements">Key Semantic Elements</h3>
+                <dl>
+                    <dt><code>&lt;header&gt;</code></dt>
+                    <dd>Represents introductory content for a page or section</dd>
+                    
+                    <dt><code>&lt;nav&gt;</code></dt>
+                    <dd>Contains navigation links for the website or page section</dd>
+                    
+                    <dt><code>&lt;main&gt;</code></dt>
+                    <dd>Represents the dominant content of the document body</dd>
+                    
+                    <dt><code>&lt;article&gt;</code></dt>
+                    <dd>Represents a standalone piece of content</dd>
+                    
+                    <dt><code>&lt;section&gt;</code></dt>
+                    <dd>Represents a thematic grouping of content</dd>
+                    
+                    <dt><code>&lt;aside&gt;</code></dt>
+                    <dd>Contains content tangentially related to the main content</dd>
+                    
+                    <dt><code>&lt;footer&gt;</code></dt>
+                    <dd>Represents footer information for its nearest sectioning element</dd>
+                </dl>
+            </article>
+            
+            <aside aria-labelledby="html5-tip">
+                <h4 id="html5-tip">Pro Tip</h4>
+                <p>Always choose semantic elements based on meaning, not appearance. Screen readers and search engines rely on proper semantic structure to understand your content.</p>
+            </aside>
+        </section>
+        
+        <section id="accessibility-section" aria-labelledby="accessibility-heading">
+            <h2 id="accessibility-heading">Web Accessibility Fundamentals</h2>
+            <p>Web accessibility ensures that websites are usable by people with disabilities. Following accessibility guidelines also improves usability for all users.</p>
+            
+            <article aria-labelledby="wcag-principles">
+                <h3 id="wcag-principles">WCAG 2.1 Principles</h3>
+                <ol>
+                    <li>
+                        <strong>Perceivable</strong>
+                        <p>Information must be presentable in ways users can perceive, including alternative text for images and proper color contrast.</p>
+                    </li>
+                    <li>
+                        <strong>Operable</strong>
+                        <p>Interface components must be operable by all users, including keyboard navigation and sufficient time limits.</p>
+                    </li>
+                    <li>
+                        <strong>Understandable</strong>
+                        <p>Information and UI operation must be understandable, with clear language and predictable functionality.</p>
+                    </li>
+                    <li>
+                        <strong>Robust</strong>
+                        <p>Content must be robust enough to work with various assistive technologies and browsers.</p>
+                    </li>
+                </ol>
+            </article>
+            
+            <article aria-labelledby="accessibility-checklist">
+                <h3 id="accessibility-checklist">Essential Accessibility Checklist</h3>
+                <ul>
+                    <li>Use proper heading hierarchy (h1, h2, h3, etc.)</li>
+                    <li>Provide alternative text for images</li>
+                    <li>Ensure sufficient color contrast ratios</li>
+                    <li>Make all functionality keyboard accessible</li>
+                    <li>Use ARIA labels and descriptions where needed</li>
+                    <li>Provide skip navigation links</li>
+                    <li>Use meaningful link text</li>
+                    <li>Structure forms with proper labels</li>
+                </ul>
+            </article>
+        </section>
+        <section id="seo-section" aria-labelledby="seo-heading">
+            <h2 id="seo-heading">Search Engine Optimization Basics</h2>
+            <p>SEO helps search engines understand and rank your content. Good SEO practices often align with accessibility principles.</p>
+            
+            <article aria-labelledby="on-page-seo">
+                <h3 id="on-page-seo">On-Page SEO Essentials</h3>
+                <table>
+                    <caption>Key SEO Elements and Their Importance</caption>
+                    <thead>
+                        <tr>
+                            <th scope="col">Element</th>
+                            <th scope="col">Purpose</th>
+                            <th scope="col">Best Practice</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row">Title Tag</th>
+                            <td>Defines the page title in search results</td>
+                            <td>Keep under 60 characters, include primary keyword</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Meta Description</th>
+                            <td>Provides page summary in search results</td>
+                            <td>150-160 characters, compelling and descriptive</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Heading Tags</th>
+                            <td>Structure content hierarchy</td>
+                            <td>Use h1 once per page, maintain logical order</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Alt Text</th>
+                            <td>Describes images for search engines and screen readers</td>
+                            <td>Be descriptive but concise</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </article>
+            
+            <article aria-labelledby="structured-data">
+                <h3 id="structured-data">Structured Data Benefits</h3>
+                <p>While not implemented in this basic example, structured data markup helps search engines understand your content context, potentially leading to rich snippets in search results.</p>
+            </article>
+        </section>
+        <section id="resources-section" aria-labelledby="resources-heading">
+            <h2 id="resources-heading">Additional Learning Resources</h2>
+            <p>Expand your knowledge with these authoritative resources on web development, accessibility, and SEO.</p>
+            
+            <article aria-labelledby="official-docs">
+                <h3 id="official-docs">Official Documentation</h3>
+                <ul>
+                    <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML" rel="external">MDN HTML Documentation</a> - Comprehensive HTML reference</li>
+                    <li><a href="https://www.w3.org/WAI/WCAG21/quickref/" rel="external">WCAG 2.1 Quick Reference</a> - Accessibility guidelines</li>
+                    <li><a href="https://developers.google.com/search/docs" rel="external">Google Search Documentation</a> - SEO best practices</li>
+                </ul>
+            </article>
+            
+            <article aria-labelledby="validation-tools">
+                <h3 id="validation-tools">Validation and Testing Tools</h3>
+                <ul>
+                    <li><a href="https://validator.w3.org/" rel="external">W3C HTML Validator</a> - Check HTML markup validity</li>
+                    <li><a href="https://wave.webaim.org/" rel="external">WAVE Web Accessibility Evaluator</a> - Test accessibility</li>
+                    <li><a href="https://search.google.com/search-console" rel="external">Google Search Console</a> - Monitor SEO performance</li>
+                </ul>
+            </article>
+        </section>
+        
+        <section id="contact-section" aria-labelledby="contact-heading">
+            <h2 id="contact-heading">Contact Information</h2>
+            <p>Have questions about web development best practices? Get in touch with our team.</p>
+            
+            <address>
+                <h3>Web Development Learning Center</h3>
+                <p>
+                    Email: <a href="kumbosaid22@gmail.com">kumbosaid22@gmail.com</a><br>
+                    Phone: <a href="tel:+1234567890">+ (254) 110445973</a><br>
+                    Address: web developer Mombasa,Kenya<br>
+                    Code City, 80100<br>
+                    Mombasa,Kenya
+                </p>
+            </address>
+            
+            <p><small><em>We typically respond to inquiries within 24 hours during business days.</em></small></p>
+        </section>
+    </main>
+    <footer role="contentinfo">
+        <p>&copy; 2025 Web Development Learning Center. All rights reserved.</p>
+        <p>
+            <small>
+                This page demonstrates HTML5 semantic structure, web accessibility principles, and SEO best practices for educational purposes.
+                <a href="#main-content">Return to top</a>
+            </small>
+        </p>
+        <nav aria-label="Footer navigation">
+            <h3>Quick Links</h3>
+            <ul>
+                <li><a href="#" rel="license">Terms of Use</a></li>
+                <li><a href="#" rel="privacy-policy">Privacy Policy</a></li>
+                <li><a href="#" rel="sitemap">Site Map</a></li>
+                <li><a href="#" rel="help">Help Center</a></li>
+            </ul>
+        </nav>
+    </footer>
+</body>
+</html>
